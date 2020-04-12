@@ -1,4 +1,5 @@
 # Automated script to create a docker image of "centos:latest" using packer.
+* Prerequisites: Ansible and docker should be installed in your system.
 * The image has a apache webserver installed and running.
 * This is a basic script for introduction to autoation using ansible.
 
