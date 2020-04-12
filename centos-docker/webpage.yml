@@ -1,0 +1,13 @@
+---
+- name: A demo to run ansible in a Docker Container
+  hosts: all
+  tasks:
+    - name: Add a sample webpage to /var/www/html
+      copy:
+          dest: /var/www/html/index.html
+          content: "
+Hello World! 
+This is me welcoming you from inside this container!
+
+"
+          owner: root
