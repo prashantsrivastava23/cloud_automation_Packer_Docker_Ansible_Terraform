@@ -3,7 +3,7 @@
 * This is a basic script for introduction to autoation using ansible.
 
 * After the docker image is created , it is pushed to hub.docker.com to your repository taking your credentials.
-* After the image is pushed is can downloaded on any system from anywhere using the tag "<username>/<image-name>:<version>"
+* After the image is pushed is can downloaded on any system from anywhere using the tag [username]/[image-name]:[version]
 
 # The testing of the Image is also automated using a python script.
 * Test 1: IP address of the OS Container.
